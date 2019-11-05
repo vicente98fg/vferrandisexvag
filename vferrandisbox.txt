@@ -1,0 +1,11 @@
+Para empaquetar este box tendremos que hacer lo siguiente:
+
+vagrant package
+
+De esta forma comprimiremos la maquina, la compresion se llamara "package.box" por defecto.
+Tras ello usaremos el siguiente comando:
+
+vagrant box add package.box --name=<nombre>
+
+En <nombre> tendremos que escribir el nombre con el que queramos que se reconozca dicho box.
+
